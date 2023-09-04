@@ -15,7 +15,7 @@ SELECT *
 FROM 
 	View4;
 
-# Return the ID and Name of INTERVIEWers who PARTicipate in INTERVIEWs where the Interviewee’s Name is “Hellen Cole” arranged for job “11111"
+# Return the ID and Name of INTERVIEWers who Participate in INTERVIEWs where the Interviewee’s Name is “Hellen Cole” arranged for job “11111"
 SELECT 
 	i.Interviewer_ID, p.FName, p.LName
 FROM 
